@@ -36,7 +36,7 @@ Even if you are a Windows user, learning Bash will open up a powerful set of too
 >
 >You need to download some files to follow this lesson:
 >
->1. Download **[lcw2022.zip](https://lor.nnlm.gov/op/op.Download.php?documentid=4197])** and move the file to your Desktop.
+>1. Download **[lcw2022.zip](https://lor.nnlm.gov/op/op.Download.php?documentid=4197)** and move the file to your Desktop.
 >2. Unzip/extract the file (ask your instructor if you need help with this step). You should end up with a new folder called `lcw2022` on your Desktop.
 >3. Open the terminal and type `ls Desktop/lcw2022` followed by the <kbd>enter</kbd> key.
 >~~~~
