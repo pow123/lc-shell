@@ -9,6 +9,6 @@ use shell commands to find and manipulate data.
 
 > ## Prerequisites
 >
-> To complete this lesson, you will need a UNIX-like shell environment -see [Setup]({{ page.root }}{% link setup.md %}). You will also need to download the file by clicking the following link: **[lcw2022.zip]([https://lor.nnlm.gov/op/op.Download_Share.php?documentid=4197])** 
+> To complete this lesson, you will need a UNIX-like shell environment -see [Setup]({{ page.root }}{% link setup.md %}). You will also need to download the file by clicking the following link: **[lcw2022.zip](https://lor.nnlm.gov/op/op.Download_Share.php?documentid=4197)** 
 > Move it to your **Desktop** and extract it there. Once you have unzipped/extracted the file, you should end up with a folder called "lcw2022" on your Desktop.
 {: .prereq}
