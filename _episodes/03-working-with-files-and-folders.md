@@ -41,12 +41,12 @@ We will try a few basic ways to interact with files. Let's first move into the
 
 ~~~
 $ cd
-$ cd Desktop/shell-lesson
+$ cd Desktop/lcw2022/shell-lesson
 $ pwd
 ~~~
 {: .bash}
 ~~~
-/Users/riley/Desktop/shell-lesson
+/Users/willip29/Desktop/shell-lesson
 ~~~
 {: .output}
 
@@ -84,7 +84,7 @@ We notice that the shell completes the line to `cd firstdir/`.
 
 If you are in `firstdir`, use `cd ..` to get back to the `shell-lesson` directory.
 
-Here there are copies of two public domain books downloaded from
+Here in the `shell-lesson` directory, there are copies of two public domain books downloaded from
 [Project Gutenberg](https://www.gutenberg.org/) along with other files we will
 cover later.
 
@@ -94,20 +94,20 @@ $ ls -lh
 {: .bash}
 ~~~
 total 33M
--rw-rw-r-- 1 riley staff 383K Feb 22 2017  201403160_01_text.json
--rw-r--r-- 1 riley staff 3.6M Jan 31 2017  2014-01-31_JA-africa.tsv
--rw-r--r-- 1 riley staff 7.4M Jan 31 2017  2014-01-31_JA-america.tsv
--rw-rw-r-- 1 riley staff 125M Jun 10 2015  2014-01_JA.tsv
--rw-r--r-- 1 riley staff 1.4M Jan 31 2017  2014-02-02_JA-britain.tsv
--rw-r--r-- 1 riley staff 582K Feb  2 2017  33504-0.txt
--rw-r--r-- 1 riley staff 598K Jan 31 2017  829-0.txt
--rw-rw-r-- 1 riley staff  18K Feb 22 2017  diary.html
-drwxr-xr-x 1 riley staff  64B Feb 22 2017  firstdir
+-rw-rw-r-- 1 willip29 staff 383K Jul 10 2022  201403160_01_text.json
+-rw-r--r-- 1 willip29 staff 3.6M Jul 10 2022  2014-01-31_JA-africa.tsv
+-rw-r--r-- 1 willip29 staff 7.4M Jul 10 2022  2014-01-31_JA-america.tsv
+-rw-rw-r-- 1 willip29 staff 125M Jul 10 2022  2014-01_JA.tsv
+-rw-r--r-- 1 willip29 staff 1.4M Jul 10 2022  2014-02-02_JA-britain.tsv
+-rw-r--r-- 1 willip29 staff 582K Jul 18 2022  33504-0.txt
+-rw-r--r-- 1 willip29 staff 598K Jul 18 2022  829-0.txt
+-rw-rw-r-- 1 willip29 staff  18K Jul 14 2022  diary.html
+drwxr-xr-x 1 willip29 staff  64B Jul 18 2022  firstdir
 ~~~
 {: .output}
 
 The files `829-0.txt` and `33504-0.txt` holds the content of book #829
-and #33504 on Project Gutenberg. But we've forgot *which* books, so
+and #33504 on Project Gutenberg. But we've forgotten *which* books, so
 we try the `cat` command to read the text of the first file:
 
 ~~~
@@ -219,11 +219,15 @@ Title: Opticks
 {: .output}
 
 All good so far, but if we had *lots* of books, it would be tedious to enter
-all the filenames. Luckily the shell supports wildcards! The `?` (matches exactly
-one character) and `*` (matches zero or more characters) are probably familiar
-from library search systems. We can use the `*` wildcard to write the above `head`
-command in a more compact way:
+all the filenames. Luckily the shell supports wildcards! 
 
+> ## Wildcards
+> What are wildcards we know from library search systems?
+> The `?` (matches exactly
+> one character) and `*` (matches zero or more characters) are most familiar.
+> We can use the `*` wildcard to write the above `head` command in a more
+> compact way:
+{: .callout}
 ~~~
 $ head *.txt
 ~~~
@@ -319,10 +323,10 @@ $ ls
 > {: .solution}
 {: .challenge}
 
-> ## The wildcards and regular expressions
+> ## Wildcards versus Regular Expressions
 >
 > The `?` wildcard matches one character. The `*` wildcard matches zero or
-> more characters. If you attended the lesson on regular expressions, do you
+> more characters. Thinking back to what we learned about regular expressions, do you
 > remember how you would express that as regular expressions?
 >
 > (Regular expressions are not a feature of the shell, but some commands support
@@ -382,5 +386,5 @@ Using wildcards, we can even delete lots of files. And adding the `-r` flag we
 can delete folders with all their content.
 
 **Unlike deleting from within our graphical user interface, there is *no* warning,
-*no* recycling bin from which you can get the files back and no other undo options!**
+*no* Recycle Bin from which you can get the files back, and no other undo options!**
 For that reason, please be very careful with `rm` and extremely careful with `rm -r`.
