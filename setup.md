@@ -36,14 +36,14 @@ Even if you are a Windows user, learning Bash will open up a powerful set of too
 >
 >You need to download some files to follow this lesson:
 >
->1. Download [shell-lesson.zip]({{ page.root }}/data/shell-lesson.zip) and move the file to your Desktop.
->2. Unzip/extract the file (ask your instructor if you need help with this step). You should end up with a new folder called `shell-lesson` on your Desktop.
+>1. Download **[lcw2022.zip](https://lor.nnlm.gov/op/op.Download.php?documentid=4195&version=1])** and move the file to your Desktop.
+>2. Unzip/extract the file (ask your instructor if you need help with this step). You should end up with a new folder called `lcw2022` on your Desktop.
 >3. Open the terminal and type `ls` followed by the <kbd>enter</kbd> key.
 >~~~~
 >$ ls
 >~~~~
 >{: .bash}
-> You should see a list of files and folders in your current directory.
+> You should see a list of files and folders in your current directory. Notice there is a `shell-lesson` folder along with folders for the other lessons.
 >4. Then type:
 >
 >~~~
