@@ -92,14 +92,14 @@ $ ls -lh
 {: .bash}
 ~~~
 total 0
-drwx------+  6 riley  staff   204B Jul 16 11:50 Desktop
-drwx------+  3 riley  staff   102B Jul 16 11:30 Documents
-drwx------+  3 riley  staff   102B Jul 16 11:30 Downloads
-drwx------@ 46 riley  staff   1.5K Jul 16 11:38 Library
-drwx------+  3 riley  staff   102B Jul 16 11:30 Movies
-drwx------+  3 riley  staff   102B Jul 16 11:30 Music
-drwx------+  3 riley  staff   102B Jul 16 11:30 Pictures
-drwxr-xr-x+  5 riley  staff   170B Jul 16 11:30 Public
+drwx------+  6 willip29  staff   204B Jul 16 11:50 Desktop
+drwx------+  3 willip29  staff   102B Jul 16 11:30 Documents
+drwx------+  3 willip29  staff   102B Jul 16 11:30 Downloads
+drwx------@ 46 willip29  staff   1.5K Jul 16 11:38 Library
+drwx------+  3 willip29  staff   102B Jul 16 11:30 Movies
+drwx------+  3 willip29  staff   102B Jul 16 11:30 Music
+drwx------+  3 willip29  staff   102B Jul 16 11:30 Pictures
+drwxr-xr-x+  5 willip29  staff   170B Jul 16 11:30 Public
 ~~~
 {: .output}
 
