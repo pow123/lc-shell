@@ -51,7 +51,7 @@ $ pwd
 ~~~
 {: .bash}
 ~~~
-/Users/riley/Desktop/shell-lesson
+/Users/willip29/Desktop/lcw2022/shell-lesson
 ~~~
 {: .output}
 
@@ -64,13 +64,13 @@ $ ls -lhS
 {: .bash}
 ~~~
 total 139M
--rw-rw-r-- 1 riley staff 126M Jun 10  2015 2014-01_JA.tsv
--rw-r--r-- 1 riley staff 7.4M Jan 31 18:47 2014-01-31_JA-america.tsv
--rw-r--r-- 1 riley staff 3.6M Jan 31 18:47 2014-01-31_JA-africa.tsv
--rw-r--r-- 1 riley staff 1.4M Jan 31 18:47 2014-02-02_JA-britain.tsv
--rw-r--r-- 1 riley staff 598K Jan 31 18:47 gulliver.txt
--rw-r--r-- 1 riley staff 583K Feb  1 22:53 33504-0.txt
-drwxr-xr-x 2 riley staff   68 Feb  2 00:58 backup
+-rw-rw-r-- 1 willip29 staff 383K Jul 10 2022  2014-01_JA.tsv
+-rw-r--r-- 1 willip29 staff 3.6M Jul 10 2022  2014-01-31_JA-america.tsv
+-rw-r--r-- 1 willip29 staff 7.4M Jul 10 2022  2014-01-31_JA-africa.tsv
+-rw-rw-r-- 1 willip29 staff 125M Jul 10 2022  2014-02-02_JA-britain.tsv
+-rw-r--r-- 1 willip29 staff 1.4M Jul 18 2022  gulliver.txt
+-rw-r--r-- 1 willip29 staff 582K Jul 18 2022  33504-0.txt
+drwxr-xr-x 1 willip29 staff  64B Jul 18 2022  backup
 ~~~
 {: .output}
 
