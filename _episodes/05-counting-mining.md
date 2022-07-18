@@ -77,7 +77,13 @@ drwxr-xr-x 1 willip29 staff  64B Jul 18 2022  backup
 In this episode we'll focus on the dataset `2014-01_JA.tsv`, that contains
 journal article metadata, and the three `.tsv` files derived from the original
 dataset. Each of these three `.tsv` files includes all data where a keyword such
-as `africa` or `america` appears in the 'Title' field of `2014-01_JA.tsv`.
+as `africa` or `
+
+
+
+
+
+` appears in the 'Title' field of `2014-01_JA.tsv`.
 
 > ## CSV and TSV Files
 > CSV (Comma-separated values) is a common plain text format for storing tabular
@@ -507,7 +513,7 @@ $ grep -ci revolution *.tsv
 This repeats the query, but prints a case
 insensitive count (including instances of both `revolution` and `Revolution` and other variants).
 Note how the count has increased nearly 30 fold for those journal article
-titles that contain the keyword 'america'. As before, cycling back and
+titles that contain the keyword 'revolution'. As before, cycling back and
 adding `> results/`, followed by a filename (ideally in .txt format), will save the results to a data file.
 
 So far we have counted strings in files and printed to the shell or to
